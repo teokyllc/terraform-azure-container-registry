@@ -4,5 +4,5 @@ resource "azurerm_container_registry" "acr" {
   location                      = var.region
   sku                           = var.sku
   admin_enabled                 = var.admin_account_enabled
-  public_network_access_enabled = false
+  public_network_access_enabled = var.public_network_access_enabled
 }
