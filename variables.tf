@@ -22,3 +22,8 @@ variable "admin_account_enabled" {
     type = string
     description = "Determines if an admin account will be enabled."
 }
+
+variable "admin_account_enabled" {
+    type = string
+    description = "Determines if public access will be enabled."
+}
