@@ -1,9 +1,9 @@
-variable "cr_name" {
+variable "container_registry_name" {
     type = string
     description = "The name for the container registry."
 }
 
-variable "rg_name" {
+variable "container_registry_resource_group_name" {
     type = string
     description = "The name for the resource group to deploy into."
 }
